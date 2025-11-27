@@ -2,23 +2,23 @@
 
 
 <p align="center">
-  <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">NEBULA ASSASSIN</h1>
+  <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">MARWLD MD TG</h1>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+BAILEYS;FAST++SECURE++RELIABLE" alt="Animated Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=ULTIMATE+TELEGRAM+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+TELEGRAF;FAST++SECURE++RELIABLE" alt="Animated Typing SVG" />
 </p>
 
 <div align="center">
   <a href="https://github.com/Ridz-coder01/followers"><img title="Followers" src="https://img.shields.io/github/followers/Ridz-coder01?color=00ffff&style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/Ridz-coder01/NEBULA-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Ridz-coder01/NEBULA-MD?color=00ffff&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
-  <a href="https://github.com/Ridz-coder01/NEBULA-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Ridz-coder01/NEBULA-MD?color=00ffff&style=for-the-badge&logo=git&logoColor=white"></a>
-  <a href="https://github.com/Ridz-coder01/NEBULA-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Ridz-coder01/NEBULA-MD?style=for-the-badge&color=00ffaa&logo=docusign&logoColor=white"></a>
-  <a href="https://github.com/Ridz-coder01/NEBULA-MD/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
+  <a href="https://github.com/Ridz-coder01/MAWRLD-TG/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Ridz-coder01/MAWRLD-TG?color=00ffff&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
+  <a href="https://github.com/Ridz-coder01/MAWRLD-TG/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Ridz-coder01/NEBULA-MD?color=00ffff&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://github.com/Ridz-coder01/MAWRLD-TG/"><img title="Size" src="https://img.shields.io/github/repo-size/Ridz-coder01/MAWRLD-TG?style=for-the-badge&color=00ffaa&logo=docusign&logoColor=white"></a>
+  <a href="https://github.com/Ridz-coder01/MAWRLD-TG/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NEBULA-MD&label=VISITORS&style=flat-square&color=00ffff" /> 
+  <img src="https://komarev.com/ghpvc/?username=MAWRLD-TG&label=VISITORS&style=flat-square&color=00ffff" /> 
 
 <!-- ✨ HOLOGRAPHIC ANIMATED HEADER -->
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -29,15 +29,15 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 ```
 ---
 
-> **CURRENT BOT VERSION ➜ `2.0. ⚡`**
+> **CURRENT BOT VERSION ➜ `1.0.0 ⚡`**
 ---
 
 <a><img src='https://files.catbox.moe/rinv3g.jpg'/></a>
 
 <!-- ⚡ TYPING EFFECT -->
 <p align="center">
-<a href="https://github.com/FAMOUS-DEV">
-<img src="http://readme-typing-svg.herokuapp.com?color=00FFFF&center=true&vCenter=true&width=550&lines=🚀+Multi-Functional+WhatsApp+Bot;🎯+Next-Gen+Automation+For+WhatsApp;💎+By+Ridz+Coder" alt="Typing Animation">
+<a href="https://github.com/Ridz-coder01">
+<img src="http://readme-typing-svg.herokuapp.com?color=00FFFF&center=true&vCenter=true&width=550&lines=🚀+Multi-Functional+Telegram+Bot;🎯+Next-Gen+Automation+For+Telegram;💎+By+Ridz+Coder" alt="Typing Animation">
 </a>
 </p>
 
@@ -45,17 +45,17 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 
 ## 📡 DEPLOYMENT SITES
 
-<p align="center">Deploy your <strong>NEBULA ASSASSIN</strong> with one click on your favorite hosting platforms.</p>
+<p align="center">Deploy your <strong>MAWRLD TG BOT</strong> with one click on your favorite hosting platforms.</p>
 
 
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/ridz-coder01/NEBULA-MD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
-      <td><a href="https://talkdrove.com" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/ridz-coder01/MAWRLD-TG" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+   
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=ridz-coder01/NEBULA-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=ridz-coder01/MAWRLD-TG" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
@@ -64,7 +64,7 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
     </tr>
  <tr>
     <td>
-      <a href="https://github.com/Ridz-coder01/NEBULA-XMD/archive/refs/heads/main.zip" target="_blank">
+      <a href="https://github.com/Ridz-coder01/MAWRLD-TG/archive/refs/heads/main.zip" target="_blank">
         <img alt="Panel Zip File" src="https://img.shields.io/badge/View-panel%20Codes-FF0000?style=for-the-badge&logo=bot&logoColor=white"/>
       </a>
     </td>
