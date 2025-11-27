@@ -1,5 +1,5 @@
 import os from "os";
-
+import { withTyping } from '../lib/utils.js';
 const helper = {
 
   command: ["sysinfo"],
