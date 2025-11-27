@@ -83,10 +83,12 @@ cd MAWRLD-TG
 npm install
 ```
 ___
+<div align="center" style="margin-top: 15px; margin-bottom: 15px; background:#0e0e0e; padding: 20px; border-radius: 12px; border: 2px solid #25D366; box-shadow: 0 0 15px #25D366; width: 95%;">
 <a href="https://t.me/mawrldmd_bot" target="_blank">
   <img src="https://img.shields.io/badge/VIEW-DEMO-8A2BE2?style=for-the-badge&logo=telegram&logoColor=white&labelColor=111111" alt="View Demo"/>
 </a>
-
+</div>
+___
 <hr>
 <p align="center"><i>✨ Keep your bot updated regularly to enjoy the latest features and patches.</i></p>  
 
