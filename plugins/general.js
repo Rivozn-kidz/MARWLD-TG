@@ -1,3 +1,4 @@
+import { withTyping } from '../lib/utils.js';
 import fs from 'fs';
 import { getPluginsByCategory } from '../lib/plugins.js';
 
