@@ -7,7 +7,7 @@ import Function from './lib/function.js';
 
 global.Func = Function;
 
-const bot = new Telegraf(process.config.BOT_TOKEN);
+const bot = new Telegraf(config.BOT_TOKEN);
 
 (async () => {
   try {
