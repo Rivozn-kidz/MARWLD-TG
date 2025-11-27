@@ -3,44 +3,56 @@ import chalk from 'chalk';
 
 function handler(bot) {
   bot.on('text', async (ctx) => {
-    const messageText = ctx.message.text;
-    const isGroupChat = ctx.message.chat.type.includes('group');
-    const prefixMatch = messageText.match(prefixRegex);
-    const hasPrefix = !!prefixMatch;
-    const commandText = prefixMatch ? messageText.slice(prefixMatch[0].length).split(' ')[0] : messageText.split(' ')[0];
-    const prefix = hasPrefix ? prefixMatch[0] : '';
-    const plugin = plugins.get(commandText);
+    try {
+      const messageText = ctx.message.text;
+      const isGroupChat = ctx.message.chat.type.includes('group');
 
-    if (plugin && ((hasPrefix && !plugin.noPrefix) || (!hasPrefix && plugin.noPrefix))) {
+      // Match prefix
+      const prefixMatch = messageText.match(prefixRegex);
+      const hasPrefix = !!prefixMatch;
+      const commandText = prefixMatch
+        ? messageText.slice(prefixMatch[0].length).split(' ')[0]
+        : messageText.split(' ')[0];
+      const prefix = hasPrefix ? prefixMatch[0] : '';
+
+      // Fetch plugin
+      const plugin = plugins.get(commandText);
+      if (!plugin) return;
+
+      // Check owner & premium
       const isOwner = owner.includes(ctx.message.from.username);
-      const isPremium = isPremiumUser(ctx.message.from.username);
-      
+      const isPremium = await isPremiumUser(ctx.message.from.username);
+
+      // Permissions
       if (plugin.isOwner && !isOwner) {
         return await ctx.reply('🚩 This command can only be executed by the bot owner.');
       }
       if (plugin.isGroup && !isGroupChat) {
-        return await ctx.reply('🚩 This command can only be used in groups.');
+        return await ctx.reply('🚩 This command is for groups only.');
       }
-
       if (plugin.isPremium && !isPremium) {
         return await ctx.reply('🚩 This command is for premium users only.');
       }
+      if (plugin.noPrefix && hasPrefix) return;
 
-      if (plugin.noPrefix && prefixMatch) {
-        return;
-      }
+      // Extract text after command
+      const text = messageText.slice(commandText.length + (hasPrefix ? prefix.length : 0)).trim();
 
-      const text = messageText.slice(commandText.length + (prefixMatch ? prefixMatch[0].length : 0)).trim();
-
+      // Execute plugin
       await plugin.operate(ctx, { text, prefix, command: commandText, bot });
-      
-      // Command Logs
+
+      // Logging
       const user = ctx.message.from.username || ctx.message.from.first_name || 'Unknown';
       const chatType = isGroupChat ? 'Groups' : 'Private Chat';
       const chatName = isGroupChat ? ctx.message.chat.title : user;
-      console.log(chalk.green(`[ COMMAND ]`) + chalk.blue(` ${commandText}`) + 
-                  chalk.yellow(` From @${user}`) + chalk.cyan(` In ${chatType}: ${chatName}`));
-
+      console.log(
+        chalk.green('[ COMMAND ]') +
+          chalk.blue(` ${commandText}`) +
+          chalk.yellow(` From @${user}`) +
+          chalk.cyan(` In ${chatType}: ${chatName}`)
+      );
+    } catch (err) {
+      console.error(chalk.red('Error handling message:'), err);
     }
   });
 }
