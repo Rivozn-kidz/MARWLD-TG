@@ -12,7 +12,7 @@
 <div align="center">
   <a href="https://github.com/Ridz-coder01/followers"><img title="Followers" src="https://img.shields.io/github/followers/Ridz-coder01?color=00ffff&style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://github.com/Ridz-coder01/MAWRLD-TG/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Ridz-coder01/MAWRLD-TG?color=00ffff&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
-  <a href="https://github.com/Ridz-coder01/MAWRLD-TG/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Ridz-coder01/NEBULA-MD?color=00ffff&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://github.com/Ridz-coder01/MAWRLD-TG/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Ridz-coder01/MAWRLD-TG?color=00ffff&style=for-the-badge&logo=git&logoColor=white"></a>
   <a href="https://github.com/Ridz-coder01/MAWRLD-TG/"><img title="Size" src="https://img.shields.io/github/repo-size/Ridz-coder01/MAWRLD-TG?style=for-the-badge&color=00ffaa&logo=docusign&logoColor=white"></a>
   <a href="https://github.com/Ridz-coder01/MAWRLD-TG/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
 </div>
@@ -57,6 +57,11 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
   <table>
     <tr>
       <td><a href="https://dashboard.heroku.com/new?template=https://github.com/ridz-coder01/MAWRLD-TG" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+<td>
+      <a href="https://github.com/Ridz-coder01/MAWRLD-TG/archive/refs/heads/main.zip" target="_blank">
+        <img alt="Panel Zip File" src="https://img.shields.io/badge/View-panel%20Codes-FF0000?style=for-the-badge&logo=bot&logoColor=white"/>
+      </a>
+    </td>
     </tr>
     <tr>
       <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=ridz-coder01/MAWRLD-TG" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
@@ -66,13 +71,6 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
       <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
       <td><a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
     </tr>
- <tr>
-    <td>
-      <a href="https://github.com/Ridz-coder01/MAWRLD-TG/archive/refs/heads/main.zip" target="_blank">
-        <img alt="Panel Zip File" src="https://img.shields.io/badge/View-panel%20Codes-FF0000?style=for-the-badge&logo=bot&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
   </table>
 </div>
 
@@ -83,7 +81,7 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 git clone https://github.com/Ridz-coder01/MAWRLD-TG.git
 cd MAWRLD-TG
 npm install
-
+```
 
 
 ___
