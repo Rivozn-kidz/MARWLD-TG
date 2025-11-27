@@ -1,3 +1,4 @@
+import { withTyping } from '../lib/utils.js';
 import { ttSearch } from '../components/tiktok.js';
 
 const helper = {
