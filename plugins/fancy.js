@@ -1,3 +1,4 @@
+import { withTyping } from '../lib/utils.js';
 const helper = {
   command: ["fancy"],
   category: "converter",
