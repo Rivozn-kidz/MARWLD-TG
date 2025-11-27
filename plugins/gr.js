@@ -1,3 +1,4 @@
+import { withTyping } from '../lib/utils.js';
 import QRCode from "qrcode";
 
 const helper = {
