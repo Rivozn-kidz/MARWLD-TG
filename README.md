@@ -24,6 +24,11 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+## 🚀 About
+
+**MAWRLD MD** is a multi-bot Telegram assistant built with **Node.js** and **Telegraf**.  
+It supports AI chat, fun commands, downloads, converters, and multi-bot management.
+
 ```
 DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 ```
@@ -52,7 +57,6 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
   <table>
     <tr>
       <td><a href="https://dashboard.heroku.com/new?template=https://github.com/ridz-coder01/MAWRLD-TG" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
-   
     </tr>
     <tr>
       <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=ridz-coder01/MAWRLD-TG" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
@@ -73,37 +77,22 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 </div>
 
 ---
+## ⚙️ Installation
 
-<hr>
-<p align="center"><i>✨ Keep your bot updated regularly to enjoy the latest features and patches.</i></p>
+```bash
+git clone https://github.com/Ridz-coder01/MAWRLD-TG.git
+cd MAWRLD-TG
+npm install
 
----
-<table align="center">
- <tr>
-    <td>
-      <a href="https://nebulasession.zone.id" target="_blank">
- <img src="https://img.shields.io/badge/GET%20SESSION%20ID-ff007f?style=for-the-badge&logo=keybase&logoColor=white">
-      </a>
-    </td>
-  </tr>
-</table>  
+
 
 ___
-## ✨ NEBULA-MD Features
 
-- 🤖 WhatsApp Multi-Device Support
-- 🔁 Anti-Delete (Text + Media)
-- 🎵 YouTube Audio Downloader
-- 📥 Media Downloader (Instagram, TikTok, etc.)
-- 🧠 AI Chatbot
-- 💬 Group Moderation Commands
-- 📛 Auto Sticker Response
-- 🎮 Word Relay & Game Plugins
-- 👮 Admin Tools (Ban, Kick, Promote)
-- 🌐 Web-based Pairing Interface
-- 📤 Sticker Maker (Image to Sticker)
+<hr>
+<p align="center"><i>✨ Keep your bot updated regularly to enjoy the latest features and patches.</i></p>  
 
----
+___
+
 
 <h2 align="center" style="color:#25D366; font-family:monospace; font-size:26px;">
 🪀 OFFICIAL SUPPORT CHANNEL
@@ -124,7 +113,7 @@ ___
 ---
 
 <h2 align="center" style="color:#9D00FF; font-family:monospace; font-size:26px;">
-🧾 PROJECT STATS NEBULA-MD
+🧾 PROJECT STATS MAWRLD-TG
 </h2>
 
 <div align="center" style="margin-top: 12px; margin-bottom: 20px; background:#0b0b0b; padding: 25px; border-radius: 12px; border: 2px solid #9D00FF; box-shadow: 0 0 20px #9D00FF; width: 95%;">
@@ -148,43 +137,6 @@ ___
 📛 <strong>Do not use without giving proper credit</strong> to the original author.<br><br>
 🛑 Unauthorized selling, re-uploading, or branding as your own is strictly prohibited.
 </p>
-
-</div>
-
----
-
-<h2 align="center" style="color:#ff00ff; font-family:monospace; font-size:26px;">
-🚫 DISCLAIMER
-</h2>
-
-
-<div align="center" style="background-color:#0f0f0f; border:2px solid #00ffff; border-radius:10px; padding:20px; box-shadow:0 0 10px #00ffff;">
-
-<h3 style="color:#00ffff; font-family:monospace;">📌 Read Carefully</h3>
-
-<p style="color:#ffffff; font-size:14px;">
-This bot is <strong>not affiliated with WhatsApp Inc.</strong><br>
-Use at your own risk. We are <strong>not responsible</strong> for any misuse, abuse, or ban that results from improper use.<br>
-Inspired by the original work of <strong>Balleys</strong>, and enhanced by the community.
-</p>
-
-</div>
-
----
-<h2 align="center" style="color:#ff00ff; font-family:monospace; font-size:26px;">
-🧾 LICENSE 
-</h2>
-
-<div align="center" style="background-color:#101010; border:2px solid #888888; border-radius:10px; padding:15px; box-shadow:0 0 5px #666666;">
-
-<p style="color:#ffffff; font-size:14px;">
-This project is licensed under the <strong>MIT License</strong><br>
-You are not allowed to use, modify, and distribute it under the terms of this license.
-</p>
-
-<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
-  <img src="https://img.shields.io/badge/APACHE 2.0-ff69b4?style=for-the-badge&logo=apache" />
-</a>
 
 </div>
 
