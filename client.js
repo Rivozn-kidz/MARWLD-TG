@@ -4,13 +4,16 @@ import chalk from 'chalk';
 function handler(bot) {
   bot.on('text', async (ctx) => {
     try {
-      const messageText = ctx.message.text;
-      const isGroupChat = ctx.message.chat.type.includes('group');
+      const message = ctx.message;
+      if (!message || !message.text) return;
+
+      const messageText = message.text;
+      const isGroupChat = message.chat.type.includes('group');
 
       // Match prefix
       const prefixMatch = messageText.match(prefixRegex);
       const hasPrefix = !!prefixMatch;
-      const commandText = prefixMatch
+      const commandText = hasPrefix
         ? messageText.slice(prefixMatch[0].length).split(' ')[0]
         : messageText.split(' ')[0];
       const prefix = hasPrefix ? prefixMatch[0] : '';
@@ -19,16 +22,17 @@ function handler(bot) {
       const plugin = plugins.get(commandText);
       if (!plugin) return;
 
-      // Check owner & premium
-      const isOwner = owner.includes(ctx.message.from.username);
-      const isPremium = await isPremiumUser(ctx.message.from.username);
+      // Determine user identifier safely
+      const userId = message.from.username || message.from.id || message.from.first_name || 'unknown_user';
+      const isOwner = owner.includes(userId);
+      const isPremium = await isPremiumUser(userId);
 
-      // Permissions
+      // Permissions checks
       if (plugin.isOwner && !isOwner) {
         return await ctx.reply('🚩 This command can only be executed by the bot owner.');
       }
       if (plugin.isGroup && !isGroupChat) {
-        return await ctx.reply('🚩 This command is for groups only.');
+        return await ctx.reply('🚩 This command can only be used in groups.');
       }
       if (plugin.isPremium && !isPremium) {
         return await ctx.reply('🚩 This command is for premium users only.');
@@ -42,15 +46,15 @@ function handler(bot) {
       await plugin.operate(ctx, { text, prefix, command: commandText, bot });
 
       // Logging
-      const user = ctx.message.from.username || ctx.message.from.first_name || 'Unknown';
       const chatType = isGroupChat ? 'Groups' : 'Private Chat';
-      const chatName = isGroupChat ? ctx.message.chat.title : user;
+      const chatName = isGroupChat ? message.chat.title : userId;
       console.log(
         chalk.green('[ COMMAND ]') +
-          chalk.blue(` ${commandText}`) +
-          chalk.yellow(` From @${user}`) +
-          chalk.cyan(` In ${chatType}: ${chatName}`)
+        chalk.blue(` ${commandText}`) +
+        chalk.yellow(` From @${userId}`) +
+        chalk.cyan(` In ${chatType}: ${chatName}`)
       );
+
     } catch (err) {
       console.error(chalk.red('Error handling message:'), err);
     }
