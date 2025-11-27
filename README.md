@@ -81,6 +81,9 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 git clone https://github.com/Ridz-coder01/MAWRLD-TG.git
 cd MAWRLD-TG
 npm install
+nano config.js
+insert you bot token then Ctrl S & Ctrl X
+node index.js
 ```
 ___
 <div align="center" style="margin-top: 15px; margin-bottom: 15px; background:#0e0e0e; padding: 20px; border-radius: 12px; border: 2px solid #25D366; box-shadow: 0 0 15px #25D366; width: 95%;">
