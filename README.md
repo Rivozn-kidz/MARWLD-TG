@@ -37,7 +37,7 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 > **CURRENT BOT VERSION ➜ `1.0.0 ⚡`**
 ---
 
-<a><img src='https://files.catbox.moe/rinv3g.jpg'/></a>
+<a><img src='https://files.catbox.moe/y5j7pq.jpg'/></a>
 
 <!-- ⚡ TYPING EFFECT -->
 <p align="center">
