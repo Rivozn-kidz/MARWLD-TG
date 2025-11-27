@@ -1,5 +1,5 @@
 import JavaScriptObfuscator from "javascript-obfuscator";
-
+import { withTyping } from '../lib/utils.js';
 const helper = {
 
   command: ['obfuscate'],
