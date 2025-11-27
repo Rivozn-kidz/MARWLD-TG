@@ -11,7 +11,7 @@ const bot = new Telegraf(config.BOT_TOKEN);
 
 (async () => {
   try {
-    console.log(chalk.blue('Loading MAWRLD MD commands...'));
+    console.log(chalk.blue('[ 🔮] LOADING MAWRLD MD COMMANDS...'));
     await cmdLoader(bot);
 
     handler(bot);
@@ -23,7 +23,7 @@ if (!bot) {
 
 }
  
-console.log(chalk.green.bold('MAWRLD-MD started successfully!'));
+console.log(chalk.green.bold('[ 🔮]MAWRLD-MD STARTED SUCCESSFULLY!'));
     await bot.launch();
 
   } catch (error) {
