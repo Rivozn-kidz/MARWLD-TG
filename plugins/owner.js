@@ -1,5 +1,5 @@
 import config from '../config.js';
-
+import { withTyping } from '../lib/utils.js';
 const helper = {
 
   command: ['owner'],
@@ -16,7 +16,7 @@ const helper = {
 
 ╭─〔 *MAWRLD OWNER INFO* 〕──────
 │✦➤
-├✦➤ *👑 Owner Name:* ${config.OWNER_NAME}
+├✦➤ *👑 Owner Name:* Ridz Coder
 ├✦➤ *📞 Owner Number:* ${config.OWNER_NUMBER}
 ├✦➤ *🤖 Bot Name:* ${config.BOT_NAME}
 │✦➤
